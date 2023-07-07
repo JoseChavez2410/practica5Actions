@@ -12,6 +12,6 @@ async function bootstrap() {
     },
   });
   await app.listen();
-  console.log('Microservice APOSTADOR is NOW listening');
+  console.log('Microservice APOSTADOR is listening');
 }
 bootstrap();
