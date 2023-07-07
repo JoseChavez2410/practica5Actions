@@ -3,7 +3,7 @@ import { ConfigModule } from '@nestjs/config';
 import { MongooseModule } from '@nestjs/mongoose';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
-import { ApostadorModule } from './student/apostador.module';
+import { ApostadorModule } from './apostador/apostador.module';
 
 @Module({
   imports: [
